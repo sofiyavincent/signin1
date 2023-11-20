@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans' sans-serif;
+    background-color: darksalmon;
+}
+.pinky,a{
+    display: block;
+}
+
+#cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    background-color: lightsalmon;
+    width: 25%;
+    border-radius: 5px;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+    text-transform:uppercase;
+    color: darkred;
+}
+form label{
+    color:green;
+    font-size: 20px;
+}
+form .paisa{
+ height: 30px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;/*curved border*/
+}
+form #btn{
+    display: flex;
+    justify-content: space-between;/*for content in left and right corner*/
+}
+button{
+    width: 30%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color:lightgreen;
+    color: black;
+}
+#cancel{
+    background-color: red;
+}
+form a{
+
+    text-decoration: none;
+    color: white;
+}
+.fa-user{
+    position: absolute;
+    top: 60%;
+left: 3%;
+ 
+}
+#user{
+    position: relative;
+
+}
